@@ -1,0 +1,8 @@
+/************** Description *****************/
+Dependency:
+1) netfileserver.c: netfileserver.h, my_queue.h, request.h
+2) libnetfiles.c: libnetfiles.h, request.h
+
+Problems:
+1) Currently, you need to create a file and then to open it (I will fix this soon)
+2) You must enter the port number to run the server or it will give segmentation fault (we can fix the port number later)
